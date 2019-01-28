@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html>
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="lib/style.css">
@@ -13,10 +14,15 @@
     - Добавлять дочерние узлы, нажимая кнопку "+".<br>
     - Редактировать информацию в узле, нажав на сам текст.<br>
     - Удалить узел (а вместе с ним и все его дочерние узлы), нажав кнопку "-"<br>
+    - Сохранить в куках состояние дерева, нажав на кнопку "Сохранить состояние"<br>
+    - Загрузить из куков состояние дерева, нажав на кнопку "Загрузить состояние"<br>
 </div>
+<br>
+<button id="save-state-btn">Сохранить состояние</button>
+<button id="load-state-btn">Загрузить состояние</button>
 <div class="tree">
     <ul id="root-ul"></ul>
 </div>
-<script src="lib/script.js"></script>
+<script src="lib/index.js"></script>
 </body>
 </html>
